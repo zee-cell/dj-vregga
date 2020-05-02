@@ -70,10 +70,6 @@
 
 @media only screen and (max-width: 1199px)
 {
-	.shows_image
-	{
-		left: -198px;
-	}
 	.footer_lists
 	{
 		width: 667px;
@@ -124,90 +120,9 @@
 	{
 		display: block;
 	}
-	.featured_album .section_title_container
+	.contact_col
 	{
-		padding-left: 0;
-	}
-	.featured_album_image
-	{
-		width: calc(100% + 242px);
-	}
-	.featured_album_player_container
-	{
-		width: calc(100% + 158px);
-		    left: -158px;
-	}
-	.featured_album_title_bar
-	{
-		padding-left: 35px;
-		padding-right: 35px;
-	}
-	.jp-playlist li
-	{
-		padding-left: 35px;
-	}
-	.jp-playlist li > div
-	{
-		padding-right: 35px;
-	}
-	.featured_album_link
-	{
-		width: 167px;
-	}
-	.shows_image
-	{
-		left: auto;
-		width: 100%;
-	}
-	.shows_list_container
-	{
-		width: 100%;
-		top: auto;
-		-webkit-transform: none;
-		-moz-transform: none;
-		-ms-transform: none;
-		-o-transform: none;
-		transform: none;
-		padding-left: 15px;
-		padding-right: 15px;
-	}
-	.shows_list_col
-	{
-		position: absolute;
-		top: 50%;
-		left: 0;
-		-webkit-transform: translateY(-50%);
-		-moz-transform: translateY(-50%);
-		-ms-transform: translateY(-50%);
-		-o-transform: translateY(-50%);
-		transform: translateY(-50%);
-	}
-	.shows_list li
-	{
-		font-size: 16px;
-	}
-	.shows_row
-	{
-		margin-top: 71px;
-	}
-	.artist_image_col
-	{
-		position: absolute;
-	    width: 100%;
-	    right: 0;
-	    top: 50px;
-	    text-align: right;
-	}
-	.artist_image
-	{
-		left: auto;
-		padding-right: 0;
-		width: 100%;
-	}
-	.artist_image img
-	{
-		max-width: 46%;
-		opacity: 0.5;
+		margin-top: 80px;
 	}
 }
 
@@ -244,41 +159,9 @@
 
 @media only screen and (max-width: 767px)
 {
-	.featured_album_image
+	.home_title
 	{
-		width: 100%;
-		height: 272px;
-	}
-	.featured_album_player_container
-	{
-		width: 100%;
-		left: auto;
-	}
-	.shows_list li
-	{
-		font-size: 14px;
-		padding-right: 15px;
-	}
-	.show_name
-	{
-		width: 100%;
-	}
-	.show_location
-	{
-		width: 100%;
-		margin-left: 0;
-	}
-	.artist_image_col
-	{
-		top: 130px;
-	}
-	.artist_image img
-	{
-		max-width: 54%;
-	}
-	.extra_title h1
-	{
-		font-size: 48px;
+		font-size: 56px;
 	}
 	.footer_lists
 	{
@@ -302,6 +185,7 @@
 	}
 	.home
 	{
+		height: 345px;
 		padding-left: 15px;
 		padding-right: 15px;
 	}
@@ -314,6 +198,14 @@
 	{
 		left: 15px;
 	}
+	.home_container
+	{
+		bottom: 71px;
+	}
+	.home_title
+	{
+		font-size: 36px;
+	}
 	.log_reg
 	{
 		display: none;
@@ -322,69 +214,14 @@
 	{
 		display: block;
 	}
-	.featured_album_artist
+	.contact_title
 	{
-		font-size: 22px;
-	}
-	.featured_album_title
-	{
-		font-size: 14px;
-		margin-top: 2px;
-	}
-	.jp-type-playlist div.jp-playlist a,
-	.song_duration
-	{
-		font-size: 14px !important;
-	}
-	.jp-playlist li
-	{
-		padding-left: 25px;
-	}
-	.jp-playlist li > div
-	{
-		padding-right: 25px;
-	}
-	.featured_album_title_bar
-	{
-		padding-left: 25px;
-		padding-right: 25px;
-	}
-	.show_date
-	{
-		width: 68px;
-	}
-	.show_shop
-	{
-		width: 100px;
-	}
-	.single_player_container
-	{
-		width: 100%;
-		left: auto;
-	}
-	.jp-type-single .player_details
-	{
-		padding-left: 20px;
-		padding-right: 22px;
-	}
-	.jp-type-single .player_controls .jp-interface
-	{
-		padding-left: 20px;
-		padding-right: 22px;
-	}
-	.extra
-	{
-		padding-left: 15px;
-		padding-right: 15px;
+		font-size: 30px;
 	}
 	.footer
 	{
 		padding-left: 15px;
 		padding-right: 15px;
-	}
-	.extra_title h1
-	{
-		font-size: 36px;
 	}
 	.newsletter_input
 	{
